@@ -12,6 +12,7 @@
 		D0C9D48E1F1CAA70002FF161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C9D48C1F1CAA70002FF161 /* Main.storyboard */; };
 		D0C9D4901F1CAA70002FF161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C9D48F1F1CAA70002FF161 /* Assets.xcassets */; };
 		D0C9D4931F1CAA70002FF161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C9D4911F1CAA70002FF161 /* LaunchScreen.storyboard */; };
+		D0C9D49B1F1CAAF4002FF161 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9D49A1F1CAAF4002FF161 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0C9D48F1F1CAA70002FF161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C9D4921F1CAA70002FF161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C9D4941F1CAA70002FF161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C9D49A1F1CAAF4002FF161 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D0C9D4881F1CAA70002FF161 /* AppDelegate.swift */,
 				D0C9D48A1F1CAA70002FF161 /* ViewController.swift */,
+				D0C9D49A1F1CAAF4002FF161 /* ResultViewController.swift */,
 				D0C9D48C1F1CAA70002FF161 /* Main.storyboard */,
 				D0C9D48F1F1CAA70002FF161 /* Assets.xcassets */,
 				D0C9D4911F1CAA70002FF161 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				D0C9D48B1F1CAA70002FF161 /* ViewController.swift in Sources */,
 				D0C9D4891F1CAA70002FF161 /* AppDelegate.swift in Sources */,
+				D0C9D49B1F1CAAF4002FF161 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +268,7 @@
 				DEVELOPMENT_TEAM = J39D4CWPKA;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy..SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +281,7 @@
 				DEVELOPMENT_TEAM = J39D4CWPKA;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy..SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +306,7 @@
 				D0C9D4991F1CAA70002FF161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
